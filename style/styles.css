@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar
+{
+    background-color: #000324;
+    color: white;
+}
+.navButtonsLeft
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border: none;
+    margin-top: 83px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navBtnAllign
+{
+    display: flex;
+    justify-content:flex-end
+}
+
+
+.Logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.bgRed
+{
+    background-color: red;
+}
