@@ -8,6 +8,7 @@
 {
     background-color: #000324;
     color: white;
+    
 }
 .navButtonsLeft
 {
@@ -20,12 +21,25 @@
     margin-left: 10px;
 }
 
-.navBtnAllign
+.navBtnAllignLeft
 {
+  
     display: flex;
     justify-content:flex-end
+    
 }
 
+.navButtonsReserve
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border-width: 2px;
+    border-color: #E5FEFF;
+    margin-top: 83px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 .Logo
 {
@@ -33,7 +47,54 @@
     justify-content: center;
 }
 
+
+
+.navBtnAllignRight
+{
+    display: flex;
+    justify-content:flex-start
+}
+
 .bgRed
 {
     background-color: red;
+}
+
+.headerSize
+{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.headerPosition
+{
+    position: absolute;
+    top: 250px;
+    right: 25%;
+}
+
+
+.headerBox
+{
+    background-color: #000324;
+    opacity: 80%;
+}
+
+.headerText
+{
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 250px;
+    padding-left: 250px;
+    
+}
+
+.imageSizer
+{
+    height: 50%;
+    width: 100%;
 }
