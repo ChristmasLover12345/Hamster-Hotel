@@ -11,7 +11,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<div class="container-liquid navBar pb-2">
+<div class="container-fluid navBar pb-2">
 
 <div class="row ">
 
@@ -19,6 +19,7 @@
     <div class="col-2 Logo"> <img src="./assets/Logo.png" alt="Logo"></div>
     <div class="col-5 navBtnAllignRight"><span><button class="navButtonsLeft">Amenities</button></span> <span><button class="navButtonsLeft">Contact</button></span> <span><button class="navButtonsReserve">Reserve</button></span></div>
     <!-- apparently the padding on this col is bigger than it should be, I've tried fixing it but I have no Idea what causes it.-->
+     <!-- really funny I accidently put container-liquid for some reason, I changed it to normal and it got fixed -->
 
 </div>
 
@@ -38,14 +39,14 @@
 
 </header>
 
-<div class="navBtnAllignRight">
-<div class="container-fluid mt-5">
+<div class="Logo">
+<div class="container-fluid welcomeMargin">
     <div class="row">
         <div class="col-4"><img class="imageSizer" src="./assets/hamsterhomejpg.jpg" alt="Hamster eating while chill on a chair lu calm fit"></div>
         <div class="col-8"> 
             <h2>Welcome to a hamsters paradise</h2>
             <div class="row">
-                <div class="col-12"><p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a beach side view. Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</p></div>
+                <div class="col-12"><p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a beach side view. <br> <br> Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</p></div>
                 <div class="col-4"> <img src="./assets/awardfinest.png" alt=""></div>
                 <div class="col-4"><img src="./assets/awardsatisfaction.png" alt=""></div>
                 <div class="col-4"><img src="./assets/awardgenuine.png" alt=""></div>
@@ -56,7 +57,52 @@
 </div>
 
 
+<div>
 
+<img class="roomBg" src="./assets/bg2.jpg" alt="a blue picture of a blue lobby with blue people checking in who probably have blue cars with blue little girlfriends who they spy on tru blue little windows">
+
+
+<div class="container-fluid rooms">
+
+    <div class="row">
+
+
+        <div class="col-12 Logo text-white">
+            <h2>Our Rooms</h2>
+        </div>
+        <div class="col d-flex justify-content-end"><div class="card radiousPowned" style="width: 21rem;">
+          <img src="./assets/room1.jpg" class="card-img-top roomsImage" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title">Queen Room</h5>
+            <h6 class="card-subtitle mb-2 text-body-primary">850 SQ FT room with city view</h6>
+            <p class="card-text roomsCardText">• One queen size bed <br><br> • Seed Bar, fireplace and large balcony <br><br> • Small kitchen with a refrigerator and stove</p>
+            <a href="#" class="btn btn-primary buttonRooms">Go somewhere</a>
+          </div>
+        </div></div>
+        <div class="col Logo"><div class="card radiousPowned" style="width: 21rem;">
+          <img src="./assets/room2.jpg" class="card-img-top roomsImage" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">King Room</h5>
+            <h6 class="card-subtitle mb-2 text-body-primary">950 SQ FT room with beach view</h6>
+            <p class="card-text roomsCardText">• One king size bed <br><br>• Seed Bar, fireplace and large balcony <br><br>• Small kitchen with a refrigerator and stove</p>
+            <a href="#" class="btn btn-primary buttonRooms">Go somewhere</a>
+          </div>
+        </div></div>
+        <div class="col d-flex justify-content-start"><div class="card radiousPowned" style="width: 21rem;">
+          <img src="./assets/room3.jpg" class="card-img-top roomsImage" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Beach Side Suite</h5>
+            <h6 class="card-subtitle mb-2 text-body-primary">1500 SQ FT Suite with beach view</h6>
+            <p class="card-text roomsCardText">• One California king size bed <br><br>• Second room with fireplace, hot tub, and balcony <br><br>• Seed Bar and coffee station <br><br>• Full kitchen with a refrigerator, stove, and island</p>
+            <a href="#" class="btn btn-primary radiousPowned">Go somewhere</a>
+        
+        </div>
+        </div>
+
+</div>
+
+
+</div>
 
 
 </body>
