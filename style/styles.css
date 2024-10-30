@@ -216,3 +216,19 @@
     width: 100%;
     padding: 7px;
 }
+
+.reserveContainer
+{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.reserveImg
+{
+    width: 100%;
+    height: 60%;
+}
+.bgNone
+{
+    background-color: white;
+}
