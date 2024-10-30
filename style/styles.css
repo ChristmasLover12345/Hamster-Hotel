@@ -204,5 +204,15 @@
 
 .inputField
 {
-    margin-right: 400px;
+    margin-right: 150px;
+}
+
+.checkBtn
+{
+    background-color: #006EDB;
+    border-color: #000DC7;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 7px;
 }
