@@ -220,7 +220,6 @@
 .reserveContainer
 {
    margin-top: 50px;
-   margin-bottom: 50px;
 }
 
 .reserveImg
@@ -231,4 +230,11 @@
 .bgNone
 {
     background-color: white;
+}
+
+.footerBg
+{
+    background-color: #000324;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
