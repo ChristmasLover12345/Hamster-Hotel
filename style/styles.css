@@ -43,13 +43,13 @@
     margin-left: 10px;
 }
 
-.Logo
+
+
+.center
 {
     display: flex;
     justify-content: center;
 }
-
-
 
 .navBtnAllignRight
 {
@@ -73,7 +73,7 @@
 {
     position: absolute;
     top: 250px;
-    right: 24%;
+    right: 9%;
 }
 
 
@@ -97,16 +97,11 @@
 
 .imageSizer
 {
-    height: 60%;
+    height: 100%;
     width: 100%;
 }
 
-.welcomeMargin
-{
-    margin-top: 100px;
-    margin-left: 230px;
-    margin-right: 230px;
-}
+
 
 .welcomeMarginv2
 {
@@ -124,7 +119,7 @@
 .rooms
 {
     position: absolute;
-    top: 1500px;
+    top: 1265px;
 }
 
 .roomsImage
@@ -173,13 +168,13 @@
 .amenitiesPosition
 {
     position: absolute;
-    top: 3400px;
-    right: 14%;
+    top: 2890px;
+    right: 2%;
 }
 .amenImg
 {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 
 .separator
@@ -243,7 +238,7 @@
 
 }
 
-/* MEDIA STARTA---------------------------------------- */
+/* ----------------PHONE DISPLAY------------------------ */
 
 
 @media screen and (max-width: 576px) {
@@ -274,13 +269,13 @@
     margin-left: 10px;
 }
 
-.navBtnAllignLeft
+/* .navBtnAllignLeft
 {
   
     display: flex;
     justify-content:flex-end
     
-}
+} */
 
 .navButtonsReserve
 {
@@ -319,11 +314,11 @@
     justify-content: center;
 }
 
-.navBtnAllignRight
+/* .navBtnAllignRight
 {
     display: flex;
     justify-content:flex-start
-}
+} */
 
 .bgRed
 {
@@ -389,11 +384,304 @@
     margin-bottom: 100px;
 }
 
-.welcomeMarginv2
+/* .welcomeMarginv2
 {
     margin-left: 230px;
     margin-right: 230px;
+} */
+
+
+
+.roomBg
+{
+    width: 100%;
+    height: 1600px;
 }
+.rooms
+{
+    position: absolute;
+    top: 110%;
+}
+
+.roomsImage
+{
+    height: 200px;
+    width: 100%;
+}
+
+.roomsCardText
+{
+    font-size: 13px;
+}
+
+.buttonRooms
+{
+    border-radius: 0;
+    margin-top: 36px;
+}
+
+.radiousPowned
+{
+    border-radius: 0;
+
+}
+
+.cardBody
+{
+    width: 80px;
+}
+
+.packagesTitle
+{
+    margin-top: 100px;
+}
+
+.packagesimages
+{
+    height: 100%;
+    width: 100%;
+}
+
+.amenitiesText
+{
+    color: white;
+    font-size: 16px;
+}
+.amenitiesPosition
+{
+    position: absolute;
+    top: 3400px;
+    right: 1%;
+}
+.amenImg
+{
+    height: 100px;
+    width: 100px;
+}
+
+.separator
+{
+    margin-bottom: 150px;
+}
+
+#ThatOneText
+{
+    color: white;
+    font-size: 16px;
+}
+
+#numberGuestText
+{
+    color: white;
+    font-size: 11px;
+}
+
+.amenBg
+{
+    width: 100%;
+    height: 560px;
+}
+
+.reserveBg
+{
+    background-color: #000324;
+}
+
+.inputField
+{
+    margin-right: 150px;
+}
+
+.checkBtn
+{
+   
+    align-self: flex-start;
+    background-color: #006EDB;
+    border-color: #000DC7;
+    color: white;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    
+}
+
+.reserveContainer
+{
+   margin-top: 50px;
+}
+
+.reserveImg
+{
+    width: 100%;
+    height: 60%;
+}
+.bgNone
+{
+    background-color: white;
+}
+
+.footerBg
+{
+    background-color: #000324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+    
+}
+
+/* -------------TABLET DISPLAY---------------------- */
+
+
+@media screen and (max-width: 768px) {
+
+    *
+{
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+
+.navBar
+{
+   
+    background-color: #000324;
+    color: white;
+    
+}
+.navButtonsLeft
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* .navBtnAllignLeft
+{
+  
+    display: flex;
+    justify-content:flex-end
+    
+} */
+
+.navButtonsReserve
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border-width: 2px;
+    border-color: #E5FEFF;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navCheseeTouch
+{
+    padding-left: 180px;
+}
+
+.logoNavBart
+{
+    display: flex;
+    position: absolute;
+    left: 6%;
+    top: 1%;
+}
+
+.Logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.LogoCards
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* .navBtnAllignRight
+{
+    display: flex;
+    justify-content:flex-start
+} */
+
+.bgRed
+{
+    background-color: red;
+}
+
+.headerSize
+{
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+
+.headerPosition
+{
+    position: absolute;
+    top: 23%;
+    right: 13%;
+}
+
+
+.headerBox
+{
+    background-color: #000324;
+    opacity: 80%;
+}
+
+.headerText
+{
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 80px;
+    
+}
+
+.imageSizer
+{
+    height: 90%;
+    width: 100%;
+}
+
+.fatHamsterImg
+{
+    width: 190px;
+    height: 100%;
+    
+    
+}
+
+
+.welcomeMargin
+{
+    margin-top: 100px;
+    
+    
+    margin-bottom: 100px;
+}
+
+/* .welcomeMarginv2
+{
+    margin-left: 230px;
+    margin-right: 230px;
+} */
 
 
 
