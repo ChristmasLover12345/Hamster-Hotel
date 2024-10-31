@@ -1,5 +1,4 @@
-@media screen and (min-width: 992px){
-    
+@media screen and (max-width: 996px) {
 
 *
 {
@@ -243,6 +242,7 @@
 }
 
 }
+
 /* MEDIA STARTA---------------------------------------- */
 
 
@@ -296,7 +296,7 @@
 
 .navCheseeTouch
 {
-    margin-left: 150px;
+    padding-left: 180px;
 }
 
 .logoNavBart
@@ -374,17 +374,18 @@
 
 .fatHamsterImg
 {
-    width: 140px;
+    width: 190px;
     height: 100%;
-    margin-right: 300px;
+    
+    
 }
 
 
 .welcomeMargin
 {
     margin-top: 100px;
-    margin-left: 230px;
-    margin-right: 230px;
+    
+    
     margin-bottom: 100px;
 }
 
@@ -404,7 +405,7 @@
 .rooms
 {
     position: absolute;
-    top: 130%;
+    top: 110%;
 }
 
 .roomsImage
@@ -454,7 +455,7 @@
 .amenitiesPosition
 {
     position: absolute;
-    top: 3850px;
+    top: 3400px;
     right: 1%;
 }
 .amenImg
