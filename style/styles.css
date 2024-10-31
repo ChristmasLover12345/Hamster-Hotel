@@ -1,3 +1,5 @@
+/* ------------------------DESKTOP DISPLAY--------------------- */
+
 @media screen and (min-width: 1200px) {
 
 *
@@ -241,7 +243,7 @@
 /* ----------------PHONE DISPLAY------------------------ */
 
 
-@media screen and (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px)  {
 
     *
 {
@@ -290,6 +292,10 @@
 }
 
 .navCheseeTouch
+{
+    padding-left: 180px;
+}
+.navCheseeTouchRight
 {
     padding-left: 180px;
 }
@@ -534,7 +540,7 @@
 /* -------------TABLET DISPLAY---------------------- */
 
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 
     *
 {
@@ -584,9 +590,13 @@
 
 .navCheseeTouch
 {
-    padding-left: 180px;
+    padding-left: 290px;
 }
-
+.navCheseeTouchRight
+{
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
 .logoNavBart
 {
     display: flex;
@@ -631,7 +641,7 @@
 {
     position: absolute;
     top: 23%;
-    right: 13%;
+    right: 22%;
 }
 
 
@@ -743,8 +753,8 @@
 .amenitiesPosition
 {
     position: absolute;
-    top: 3400px;
-    right: 1%;
+    top: 3300px;
+    right: 0.5%;
 }
 .amenImg
 {

@@ -15,9 +15,9 @@
 
 <div class="row ">
 
-    <div class="col-xl-5 col-sm-12 navCheseeTouch navBtnAllignLeft Logo"> <span><button class="navButtonsLeft ">Overview</button></span> <span><button class="navButtonsLeft">Rooms</button></span> <span><button class="navButtonsLeft">Packages</button></span></div>
+    <div class="col-xl-5 col-sm-12 col-md-6 navCheseeTouch navBtnAllignLeft Logo"> <span><button class="navButtonsLeft ">Overview</button></span> <span><button class="navButtonsLeft">Rooms</button></span> <span><button class="navButtonsLeft">Packages</button></span></div>
     <div class="col-2 center logoNavBart"> <img src="./assets/Logo.png" alt="Logo"></div>
-    <div class="col-xl-5 col-sm-12 navCheseeTouch navBtnAllignRight Logo"><span><button class="navButtonsLeft">Amenities</button></span> <span><button class="navButtonsLeft">Contact</button></span> <span><button class="navButtonsReserve">Reserve</button></span></div>
+    <div class="col-xl-5 col-sm-12 col-md-6 navCheseeTouchRight navBtnAllignRight Logo"><span><button class="navButtonsLeft">Amenities</button></span> <span><button class="navButtonsLeft">Contact</button></span> <span><button class="navButtonsReserve">Reserve</button></span></div>
     <!-- apparently the padding on this col is bigger than it should be, I've tried fixing it but I have no Idea what causes it.-->
      <!-- really funny I accidently put container-liquid for some reason, I changed it to normal and it got fixed -->
 
@@ -174,26 +174,26 @@
     <div class="row ">
         <div class="col-3">
             <div class="row">
-                <div class="col-12 center"><img class="amenImg" src="./assets/24hour.png" alt="a dinner dish"></div>
-                <div class="col center mt-3"><h4 class="amenitiesText">24 Hour Room Service</h4></div>
+                <div class="col-12 LogoCards center"><img class="amenImg" src="./assets/24hour.png" alt="a dinner dish"></div>
+                <div class="col center text-center mt-3"><h4 class=" amenitiesText">24 Hour Room Service</h4></div>
             </div>
         </div>
         <div class="col-3">
             <div class="row">
-                <div class="col-12 center"><img class="amenImg" src="./assets/breakfast.png" alt="utensils infront of a rising sun"></div>
-                <div class="col center mt-3"><h4 id="ThatOneText">Complimentary Breakfast</h4></div>
+                <div class="col-12 LogoCards center"><img class="amenImg" src="./assets/breakfast.png" alt="utensils infront of a rising sun"></div>
+                <div class="col center text-center mt-3"><h4 id="ThatOneText">Complimentary Breakfast</h4></div>
             </div>
         </div>
         <div class="col-3">
             <div class="row">
-                <div class="col-12 center"> <img class="amenImg" src="./assets/valet.png" alt="a guy in a prision guard uniform"></div>
-                <div class="col center mt-3"><h4 class="amenitiesText">Valet Parking</h4></div>
+                <div class="col-12 LogoCards center"> <img class="amenImg" src="./assets/valet.png" alt="a guy in a prision guard uniform"></div>
+                <div class="col center text-center mt-3"><h4 class="amenitiesText">Valet Parking</h4></div>
             </div>
         </div>
         <div class="col-3">
             <div class="row">
-                <div class="col-12 center"><img class="amenImg" src="./assets/pool.png" alt="ladder out of a pool"></div>
-                <div class="col center mt-3"><h4 class="amenitiesText">Beachside Pool</h4></div>
+                <div class="col-12 LogoCards center"><img class="amenImg" src="./assets/pool.png" alt="ladder out of a pool"></div>
+                <div class="col center text-center mt-3"><h4 class="amenitiesText">Beachside Pool</h4></div>
             </div>
         </div>
         </div>
@@ -207,7 +207,7 @@
 
 <div class="container reserveBg reserveContainer">
     <div class="row">
-        <div class="col-12 center">
+        <div class="col-12 LogoCards center">
             <h1 class="amenitiesText">Reserve a Room</h1>
         </div>
         <div class="col-12 center">
@@ -216,8 +216,8 @@
 
                 <div class="col-10">
                     <div class="row">
-                        <div class="col-3">
-                            <div class="row">
+                        <div class="col-3 ">
+                            <div class="row ">
                                 <div class="col-12 inputField"><h6 class="amenitiesText">Check-in</h6></div>
                                 <div class="col-12"> <input class="form-control me-2 radiousPowned" type="search" placeholder="" aria-label="Search"></div>
                             </div>
@@ -226,9 +226,9 @@
                             <div class="col-12 inputField"><h6 class="amenitiesText">Check-out</h6></div>
                                 <div class="col-12"> <input class="form-control me-2 radiousPowned" type="search" placeholder="" aria-label="Search"></div>
                         </div>
-                        <div class="col-3">
-                            <div class="col-12 inputField"><h6 id="numberGuestText">Number of Guests</h6></div>
-                            <div class="col-12"> <input class="form-control me-2 radiousPowned" type="search" placeholder="" aria-label="Search"></div>
+                        <div class="col-3 ">
+                            <div class="col-12  inputField amenitiesText"><h6 id="numberGuestText">Number of Guests</h6></div>
+                            <div class="col-12 "> <input class="form-control me-2 radiousPowned" type="search" placeholder="" aria-label="Search"></div>
                         </div>
                         <div class="col-3">
                             <div class="col-12 inputField"><h6 class="amenitiesText">Room Type</h6></div>
