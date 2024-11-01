@@ -1,6 +1,249 @@
-/* ------------------------DESKTOP DISPLAY--------------------- */
 
-@media screen and (min-width: 1200px) {
+/* -------------------------------DESKTOP DISPLAY------------------------------ */
+@media screen and (min-width: 1800px) {
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar
+{
+    background-color: #000324;
+    color: white;
+    
+}
+.navButtonsLeft
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border: none;
+    margin-top: 83px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navBtnAllignLeft
+{
+  
+    display: flex;
+    justify-content:flex-end
+    
+}
+
+.navButtonsReserve
+{
+    padding: 5px;
+    background-color: #000324;
+    color: white;
+    border-width: 2px;
+    border-color: #E5FEFF;
+    margin-top: 83px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navBtnAllignRight
+{
+    display: flex;
+    justify-content:flex-start
+}
+
+.bgRed
+{
+    background-color: red;
+}
+
+.headerSize
+{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.headerPosition
+{
+    position: absolute;
+    top: 250px;
+    right: 25%;
+}
+
+
+.headerBox
+{
+    background-color: #000324;
+    opacity: 80%;
+}
+
+.headerText
+{
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 250px;
+    padding-left: 250px;
+    
+}
+
+.imageSizer
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.welcomeMarginv2
+{
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+
+
+.roomBg
+{
+    width: 100%;
+    height: 738px;
+}
+.rooms
+{
+    position: absolute;
+    top: 1465px;
+}
+
+.roomsImage
+{
+    height: 200px;
+    width: 100%;
+}
+
+.roomsCardText
+{
+    font-size: 13px;
+}
+
+.buttonRooms
+{
+    border-radius: 0;
+    margin-top: 36px;
+}
+
+.radiousPowned
+{
+    border-radius: 0;
+
+}
+
+.cardBody
+{
+    width: 80px;
+}
+
+.packagesTitle
+{
+    margin-top: 100px;
+}
+
+.packagesimages
+{
+    height: 100%;
+    width: 100%;
+}
+
+.amenitiesText
+{
+    color: white;
+}
+.amenitiesPosition
+{
+    position: absolute;
+    top: 3340px;
+    right: 15%;
+}
+.amenImg
+{
+    height: 150px;
+    width: 150px;
+}
+
+.separator
+{
+    margin-bottom: 150px;
+}
+
+#ThatOneText
+{
+    color: white;
+    font-size: 22px;
+}
+
+.amenBg
+{
+    width: 100%;
+    height: 560px;
+}
+
+.reserveBg
+{
+    background-color: #000324;
+}
+
+.inputField
+{
+    margin-right: 150px;
+}
+
+.checkBtn
+{
+    background-color: #006EDB;
+    border-color: #000DC7;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 7px;
+}
+
+.reserveContainer
+{
+   margin-top: 50px;
+}
+
+.reserveImg
+{
+    width: 100%;
+    height: 60%;
+}
+.bgNone
+{
+    background-color: white;
+}
+
+.footerBg
+{
+    background-color: #000324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+}
+
+
+/* ------------------------SMALLER DESKTOP DISPLAY--------------------- */
+
+@media (min-width: 1200px) and (max-width: 1799.98px) {
 
 *
 {
