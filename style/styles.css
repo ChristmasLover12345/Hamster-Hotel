@@ -221,6 +221,18 @@
    margin-top: 50px;
 }
 
+.reserveBgImg
+{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservePadding
+{
+    padding-bottom: 600px;
+}
+
 .reserveImg
 {
     width: 100%;
@@ -464,11 +476,23 @@
    margin-top: 50px;
 }
 
-.reserveImg
+.reserveBgImg
+{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservePadding
+{
+    padding-bottom: 600px;
+}
+
+/* .reserveImg
 {
     width: 100%;
     height: 60%;
-}
+} */
 .bgNone
 {
     background-color: white;
@@ -760,11 +784,24 @@
    margin-top: 50px;
 }
 
-.reserveImg
+.reserveBgImg
+{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservePadding
+{
+    padding-bottom: 300px;
+}
+
+/* .reserveImg
 {
     width: 100%;
     height: 60%;
-}
+} */
+
 .bgNone
 {
     background-color: white;
@@ -1057,11 +1094,23 @@
    margin-top: 50px;
 }
 
-.reserveImg
+.reserveBgImg
+{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservePadding
+{
+    padding-bottom: 400px;
+}
+
+/* .reserveImg
 {
     width: 100%;
     height: 60%;
-}
+} */
 .bgNone
 {
     background-color: white;
